@@ -1226,6 +1226,22 @@ input::-webkit-inner-spin-button {
     order: 3;
     text-align: center;
   }
+
+  .socials {
+    margin-right: 0;
+  }
+
+  .socials__item {
+    padding-left: 0;
+  }
+
+  .footer-inner__num {
+    margin: 0px auto;
+  }
+
+  .socials__item:nth-child(1) {
+    margin-left: 0;
+  }
 }
 @media (max-width: 480px) {
   .rating-colums__items {
